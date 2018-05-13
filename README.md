@@ -33,9 +33,10 @@
 - MacOS용 터미널 어플리케이션
 - 유용한 기능
   - Profile
-  - Tab
-  - Split Horizontally
-  - Split Vertically
+  - Tab (cmd+t, cmd+o)
+  - Split Horizontally (cmd+shift+d, cmd+shift+opt+h)
+  - Split Vertically (cmd+d, cmd+shift+opt+v)
+  - Maximize active panel (cmd+shift+enter)
 
 ### AppleScript  
   - Apple에서 만든 스크립트 언어
@@ -43,7 +44,7 @@
 
 ### [iTerm2 AppleScript Integration](https://www.iterm2.com/documentation-scripting.html)
   - 특정 Profile로 Tab열기
-  - Split Horizontally  
+  - Split Vertically  
 
 ---
 
