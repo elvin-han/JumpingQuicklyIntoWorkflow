@@ -1,4 +1,5 @@
-# [iTerm2, AppleScript, and Jumping Quickly into Your Workflow](https://medium.com/@sunskyearthwind/iterm-applescript-and-jumping-quickly-into-your-workflow-1849beabb5f7)
+# iTerm2, AppleScript, and Jumping Quickly into Your Workflow
+* [원문 Link](https://medium.com/@sunskyearthwind/iterm-applescript-and-jumping-quickly-into-your-workflow-1849beabb5f7)
 
 ## Goal
 * 개발 준비 과정 자동화
