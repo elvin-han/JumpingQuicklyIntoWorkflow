@@ -35,11 +35,14 @@
   - Tab
   - Split Horizontally
   - Split Vertically
-  - [AppleScript Integration 지원](https://www.iterm2.com/documentation-scripting.html)
 
 ### AppleScript  
   - Apple에서 만든 스크립트 언어
   - MacOS에 통합되어있음
+
+### [iTerm2 AppleScript Integration](https://www.iterm2.com/documentation-scripting.html)
+  - 특정 Profile로 Tab열기
+  - Split Horizontally  
 
 ---
 
