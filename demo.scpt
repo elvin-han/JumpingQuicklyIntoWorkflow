@@ -1,7 +1,7 @@
 tell application "iTerm2"
   -- TAB 1 --
   tell current window
-    create tab with profile "falcon-server-backend"
+    create tab with profile "falcon-server"
   end tell
 
   -- Falcon Server --
@@ -12,16 +12,11 @@ tell application "iTerm2"
 
     delay 5
 
-    split horizontally with profile "falcon-server-backend"
-    split vertically with profile "falcon-server-backend"
+    split horizontally with profile "falcon-server"
+    split vertically with profile "falcon-server"
   end tell
 
-  -- repeat while is processing of first session of current tab of current window is true
-  --   delay 1
-  -- end repeat
-
-  -- tell application "PyCharm" to launch
-
+  -- PyCharm --
   tell third session of current tab of current window
     set name to "falcon-server shell"
 
@@ -29,9 +24,10 @@ tell application "iTerm2"
         write text "charm $FALCON_SERVER_HOME"
     end if
 
-    split vertically with profile "falcon-server-backend"
+    split vertically with profile "falcon-server"
   end tell
 
+  -- Falcon Admin --
   tell fourth session of current tab of current window
     set name to "falcon-server front"
 
